@@ -13,12 +13,12 @@ const Wrapper = styled.footer`
 const List = styled.ul`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   width: 100%;
-  border-top: 1px solid ${props => props.theme.colors.secondary};
-  padding: 1em 0 2em;
-  margin: 0 1.5em;
+  border-top: 2px solid ${props => props.theme.colors.secondary};
+  padding: 4em 0 2em;
+  margin: 0 14em;
 `
 
 const Item = styled.li`
@@ -44,20 +44,55 @@ const Item = styled.li`
 const Footer = () => (
   <Wrapper>
     <List>
-      <Item>
+     <Item>
         <a
           href="https://www.contentful.com/"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
           <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
+            src="https://www.contentful.com/assets/images/graphics/open_graph.png"
             style={{ width: '100px' }}
             alt="Powered by Contentful"
           />
         </a>
       </Item>
       <Item>
+        <a
+          href="https://www.netlify.com/"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="https://www.netlify.com/img/global/meta-image.jpg"
+            style={{ width: '100px' }}
+            alt="Powered by Netlify"
+          />
+        </a>
+      </Item>
+      <Item>
+        <a
+          href="https://www.gatsbyjs.com/"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="http://www.hixle.co/wp-content/uploads/Gatsby-JS-min.jpg"
+            style={{ width: '70px' }}
+            alt="Powered by Gatsby"
+          />
+        </a>
+      </Item>
+      
+    </List>
+  </Wrapper>
+)
+
+export default Footer
+
+
+/*
+<Item>
         <a
           href="https://github.com/ryanwiemer/gatsby-starter-gcn"
           target="_blank"
@@ -71,11 +106,7 @@ const Footer = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          @ryanwiemer
+          @ryanwiemer 
         </a>
       </Item>
-    </List>
-  </Wrapper>
-)
-
-export default Footer
+      */

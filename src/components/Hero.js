@@ -30,17 +30,17 @@ const BgImg = styled(Img)`
 
 const Title = styled.h1`
   z-index: 2;
-  font-size: 3em;
-  text-transform: capitalize;
-  font-weight: 600;
+  font-size: 2em;
+  font-weight: 500;
   position: absolute;
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidthCentered};
-  padding: 0 1rem;
-  top: 50%;
+  padding: 0 2rem;
+  top: 90%;
   left: 50%;
+  background: black;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   color: white;
 `
 
