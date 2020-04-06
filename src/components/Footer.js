@@ -77,8 +77,8 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="http://www.hixle.co/wp-content/uploads/Gatsby-JS-min.jpg"
-            style={{ width: '70px' }}
+            src="https://www.gatsbyjs.com/1f45d461123dd7d58c2547317d406506.svg"
+            style={{ width: '55px' }}
             alt="Powered by Gatsby"
           />
         </a>
