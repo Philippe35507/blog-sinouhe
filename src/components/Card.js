@@ -43,9 +43,9 @@ const StyledImg = styled(Img)`
 `
 
 const Title = styled.h2`
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   margin: 1rem 1rem 0.5rem 1rem;
 `
 
@@ -72,9 +72,9 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
           <Link to={`${props.basePath}/${slug}/`}>
             <StyledImg fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
             <Title>{title}</Title>
-            <Date>{publishDate}</Date>
+            <Date>📅 {publishDate}</Date>
             <ReadingTime>
-              {body.childMarkdownRemark.timeToRead} min read
+              ⏱️{body.childMarkdownRemark.timeToRead} mn
             </ReadingTime>
             <Excerpt
               dangerouslySetInnerHTML={{
@@ -89,3 +89,5 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
 }
 
 export default Card
+
+

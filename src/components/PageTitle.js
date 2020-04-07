@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 
 const Title = styled.h1`
   font-size: ${props => (props.small ? '2em' : '3em')};
-  
   font-weight: 900;
   text-align: center;
   margin: 0 0 3rem 0;
@@ -19,6 +18,7 @@ const Title = styled.h1`
       color: ${props => props.theme.colors.highlight};
     }
   }
+  text-transform : none;
 `
 
 const PageTitle = props => {

@@ -45,44 +45,24 @@ const Footer = () => (
   <Wrapper>
     <List>
      <Item>
-        <a
+        <p>Powered by </p><a
           href="https://www.contentful.com/"
           rel="nofollow noopener noreferrer"
           target="_blank"
-        >
-          <img
-            src="https://www.contentful.com/assets/images/graphics/open_graph.png"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
-      </Item>
-      <Item>
-        <a
+        >Contentful, 
+        </a> <a
           href="https://www.netlify.com/"
           rel="nofollow noopener noreferrer"
           target="_blank"
-        >
-          <img
-            src="https://www.netlify.com/img/global/meta-image.jpg"
-            style={{ width: '100px' }}
-            alt="Powered by Netlify"
-          />
-        </a>
-      </Item>
-      <Item>
-        <a
+        >Netlify
+        </a> and <a
           href="https://www.gatsbyjs.com/"
           rel="nofollow noopener noreferrer"
           target="_blank"
-        >
-          <img
-            src="https://www.gatsbyjs.com/1f45d461123dd7d58c2547317d406506.svg"
-            style={{ width: '55px' }}
-            alt="Powered by Gatsby"
-          />
+        >Gatsby
         </a>
       </Item>
+     
       
     </List>
   </Wrapper>
