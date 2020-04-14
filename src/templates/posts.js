@@ -76,7 +76,7 @@ export const query = graphql`
             childMarkdownRemark {
               timeToRead
               html
-              excerpt(pruneLength: 150)
+              
             }
           }
         }
@@ -86,3 +86,5 @@ export const query = graphql`
 `
 
 export default Posts
+
+// excerpt(pruneLength: 150)

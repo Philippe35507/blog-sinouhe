@@ -39,7 +39,7 @@ export const query = graphql`
       body {
         childMarkdownRemark {
           html
-          excerpt(pruneLength: 320)
+          
         }
       }
     }
@@ -47,3 +47,5 @@ export const query = graphql`
 `
 
 export default PageTemplate
+
+// excerpt(pruneLength: 320)
