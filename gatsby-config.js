@@ -21,7 +21,7 @@ module.exports = {
     description:
       'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
     siteUrl: 'https://sinouhe.netlify.com',
-    image: '/images/share.jpg',
+    image: '/images/share.png',
     menuLinks: [
       {
         name: 'Home',
