@@ -19,7 +19,7 @@ module.exports = {
   siteMetadata: {
     title: 'Sinouhé',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
+      'Blog de nouvelles',
     siteUrl: 'https://sinouhe.netlify.com',
     image: '/images/share.png',
     menuLinks: [
@@ -82,8 +82,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'Sinouhé',
+        short_name: 'Sinouhé',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
