@@ -70,7 +70,7 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
       {heroImage && body && (
         <Post featured={props.featured}>
           <Link to={`${props.basePath}/${slug}/`}>
-            <StyledImg fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
+            <StyledImg fluid={heroImage.fluid} backgroundColor={'#70829e'} />
             <Title>{title}</Title>
             <Date>📅 {publishDate}</Date>
             <ReadingTime>

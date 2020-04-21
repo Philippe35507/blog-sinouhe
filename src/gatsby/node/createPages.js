@@ -32,8 +32,8 @@ module.exports = async ({ graphql, actions }) => {
     createPage,
     component: path.resolve(`./src/templates/posts.js`),
     items: posts,
-    itemsPerFirstPage: config.siteMetadata.postsPerFirstPage || 7,
-    itemsPerPage: config.siteMetadata.postsPerPage || 6,
+    itemsPerFirstPage: config.siteMetadata.postsPerFirstPage || 10,
+    itemsPerPage: config.siteMetadata.postsPerPage || 9,
     pathPrefix: basePath,
     context: {
       basePath: basePath === '/' ? '' : basePath,
@@ -55,7 +55,7 @@ module.exports = async ({ graphql, actions }) => {
       createPage,
       component: path.resolve(`./src/templates/tag.js`),
       items: tag.node.post || [],
-      itemsPerPage: config.siteMetadata.postsPerPage || 6,
+      itemsPerPage: config.siteMetadata.postsPerPage || 9,
       pathPrefix: tagPagination,
       context: {
         slug: tag.node.slug,

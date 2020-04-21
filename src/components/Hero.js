@@ -31,14 +31,14 @@ const BgImg = styled(Img)`
 const Title = styled.h1`
   z-index: 2;
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 700;
   position: absolute;
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidthCentered};
-  padding: 0 2rem;
-  top: 90%;
+  padding: 0.7rem 0.7rem 0.7rem 2rem;
+  top: 88%;
   left: 50%;
-  background: black;
+  background:  rgba(0, 0, 0, 0.85);
   transform: translate(-50%, -50%);
   text-align: left;
   color: white;
@@ -47,7 +47,7 @@ const Title = styled.h1`
 
 const Hero = props => (
   <Wrapper height={props.height}>
-    <BgImg fluid={props.image.fluid} backgroundColor={'#eeeeee'} />
+    <BgImg fluid={props.image.fluid} backgroundColor={'#70829e'} />
     <Title>{props.title}</Title>
   </Wrapper>
 )

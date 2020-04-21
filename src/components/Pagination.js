@@ -109,7 +109,7 @@ const Pagination = props => {
               </Button>
             )}
             {props.context.nextPagePath && (
-              <Button style={{ order: 3 }} to={`${props.context.nextPagePath}`}>
+              <Button style={{ order: 4 }} to={`${props.context.nextPagePath}`}>
                 Next <span>&rarr;</span>
               </Button>
             )}
